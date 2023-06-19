@@ -1,0 +1,8 @@
+CREATE TABLE booklist (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    rating INTEGER);
+    
+INSERT INTO booklist VALUES(1,"Normal People",3.0);
+INSERT INTO booklist VALUES(2,"Then She Was Gone", 3.0);
+INSERT INTO booklist VALUES(3,"The Ballad of Songbirds and Snakes",4.0);
