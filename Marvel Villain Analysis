@@ -69,8 +69,8 @@ INSERT INTO Marvels VALUES(26, "Professor X", 58, "Good", "Male", 1.83, 86, "USA
 FROM Marvels;
 
 
-SELECT COUNT(*) AS female_villians FROM Marvels WHERE Gender='Female';
-SELECT COUNT(*) AS male_villians FROM Marvels WHERE Gender='Male';
+SELECT COUNT(*) AS female_marvels FROM Marvels WHERE Gender='Female';
+SELECT COUNT(*) AS male_marvels FROM Marvels WHERE Gender='Male';
 
 
 Select Count(*) AS Number
