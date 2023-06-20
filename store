@@ -1,0 +1,27 @@
+#Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. 
+#You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. 
+
+#You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT , price INTEGER , aisle INTEGER , quantity INTEGER);
+
+INSERT INTO store VALUES(1,'bananas',2,9,50);
+INSERT INTO store VALUES(2,'apples',3,9,60);
+INSERT INTO store VALUES(3,'oranges',5,9,70);
+INSERT INTO store VALUES(4,'pears',4,9,40);
+INSERT INTO store VALUES(5,'peaches',5,9,30);
+INSERT INTO store VALUES(6,'candles',10,6,20);
+INSERT INTO store VALUES(7,'pillows',7,11,10);
+INSERT INTO store VALUES(8,'mattress',150,11,20);
+INSERT INTO store VALUES(9,'couch',300,11,30);
+INSERT INTO store VALUES(10,'towels',6,10,40);
+INSERT INTO store VALUES(11,'soap',8,10,50);
+INSERT INTO store VALUES(12,'waterbottle',1,9,60);
+INSERT INTO store VALUES(13,'cd',10,7,70);
+INSERT INTO store VALUES(14,'lamp',15,12,80);
+INSERT INTO store VALUES(15,'desk',40,12,90);
+
+
+SELECT * FROM store ORDER BY price;
+SELECT SUM(price) FROM store;
+
